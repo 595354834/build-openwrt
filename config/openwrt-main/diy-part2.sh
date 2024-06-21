@@ -31,8 +31,8 @@ echo "DISTRIB_SOURCECODE='official'" >>package/base-files/files/etc/openwrt_rele
 
 # Add third-party software packages (The entire repository)
 # git clone https://github.com/libremesh/lime-packages.git package/lime-packages
-git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
-git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
+# git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
+# git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 # Add third-party software packages (Specify the package)
 # svn co https://github.com/libremesh/lime-packages/trunk/packages/{shared-state-pirania,pirania-app,pirania} package/lime-packages/packages
 # Add to compile options (Add related dependencies according to the requirements of the third-party software package Makefile)
