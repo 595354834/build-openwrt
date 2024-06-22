@@ -8,11 +8,6 @@
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git lienol https://github.com/Lienol/openwrt-package' >>feeds.conf.default
-git clone https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
-git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
