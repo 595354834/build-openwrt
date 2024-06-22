@@ -32,8 +32,6 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
-svn co https://github.com/EOYOHOO/UA2F.git package/UA2F
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
